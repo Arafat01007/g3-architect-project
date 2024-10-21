@@ -171,12 +171,17 @@ main {
 
     nav,
     nav>ul,
-    .team-section {
+    .team-section,
+    .facts-card-container {
         flex-direction: column;
     }
 
     .team-img {
         grid-template-columns: 1fr;
+    }
+    .facts-card-container {
+        padding: 10px;
+        gap: 40px;
     }
 }
 
