@@ -130,6 +130,11 @@ main {
 }
 
 /* features section styles */
+
+.features-content>p {
+    margin: 25px 0;
+}
+
 .features {
     display: flex;
     margin-top: 130px;
