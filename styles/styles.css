@@ -16,7 +16,7 @@
     text-align: center;
     font-size: 20px;
     font-weight: 600;
-margin: 16px 0;
+    margin: 16px 0;
 }
 
 /* header related styles */
@@ -92,8 +92,63 @@ nav h3 {
     nav {
         flex-direction: column;
     }
+
     header {
         padding: 20px;
     }
 
+}
+
+/* main styles */
+
+main {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* team styles */
+
+.team-section {
+    display: flex;
+    align-items: center;
+    margin-top: 85px;
+}
+
+.team-img {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+
+.team-content {
+    padding: 0 70px;
+}
+
+.team-content h3 {
+    font-size: 2.813rem;
+}
+
+.gray-span {
+    color: #727272;
+    font-size: 45px;
+    font-weight: 500;
+}
+
+.black-span {
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.orange-span {
+    color: #FF900E;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.team-content p {
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
 }
